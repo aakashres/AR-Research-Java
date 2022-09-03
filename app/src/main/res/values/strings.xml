@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Research AR</string>
+    <string name="activity">Activity</string>
+    <string name="probability">Probability</string>
+    <string name="sitting">Sitting</string>
+    <string name="running">Running</string>
+    <string name="walking">Walking</string>
+</resources>

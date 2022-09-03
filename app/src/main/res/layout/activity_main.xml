@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <Button
+        android:id="@+id/face_detect"
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:text="Face Detection" />
+
+    <Button
+        android:id="@+id/emotion_detect"
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:text="Emotion Detection" />
+
+    <Button
+        android:id="@+id/object_detect"
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:text="Object Detection" />
+
+    <Button
+        android:id="@+id/emoji_view"
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:text="Emoji Viewer" />
+
+    <Button
+        android:id="@+id/save_object"
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:text="Save Object" />
+
+    <Button
+        android:id="@+id/sensor"
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:text="Sensor Detection" />
+
+    <Button
+        android:id="@+id/facemask"
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:text="Face Augmentation" />
+
+
+</LinearLayout>

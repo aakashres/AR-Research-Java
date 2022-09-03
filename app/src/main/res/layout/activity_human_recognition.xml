@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:padding="22dp"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    tools:context=".HumanActivityRecognition">
+
+    <TableRow
+        android:id="@+id/title_row"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="22dp"
+        android:textAlignment="center">
+
+        <TextView
+            android:id="@+id/title"
+            android:layout_weight="1"
+            android:text="@string/activity"
+            android:textAlignment="center"
+            android:textSize="20sp"
+            android:textStyle="bold|italic" />
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_weight="1"
+            android:text="@string/probability"
+            android:textAlignment="center"
+            android:textSize="20sp"
+            android:textStyle="bold|italic" />
+    </TableRow>
+
+    <TableRow
+        android:id="@+id/sitting"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:padding="22dp">
+
+        <TextView
+            android:id="@+id/sitting_title"
+            android:layout_weight="1"
+            android:text="@string/sitting"
+            android:textAlignment="center"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/sitting_prob"
+            android:textAlignment="center"
+            android:textSize="18sp"
+            android:layout_weight="1"/>
+    </TableRow>
+    <TableRow
+        android:id="@+id/walking"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:padding="22dp">
+
+        <TextView
+            android:id="@+id/walking_title"
+            android:layout_weight="1"
+            android:text="@string/walking"
+            android:textAlignment="center"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/walking_prob"
+            android:textAlignment="center"
+            android:textSize="18sp"
+            android:layout_weight="1"/>
+    </TableRow>
+
+    <TableRow
+        android:id="@+id/running"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:padding="22dp">
+
+        <TextView
+            android:id="@+id/running_title"
+            android:layout_weight="1"
+            android:text="@string/running"
+            android:textAlignment="center"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/running_prob"
+            android:textAlignment="center"
+            android:textSize="18sp"
+            android:layout_weight="1"/>
+    </TableRow>
+
+</TableLayout>
